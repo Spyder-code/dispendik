@@ -65,3 +65,16 @@ mix.babel('node_modules/sweetalert/dist/sweetalert.min.js',
     'public/assets/js/sweetalert.min.js');
 mix.babel('node_modules/izitoast/dist/js/iziToast.min.js',
     'public/assets/js/iziToast.min.js');
+
+
+ mix.js('resources/assets/js/books/books.js', 'public/assets/js/books/books.js').version();
+
+
+ mix.js('resources/assets/js/teachers/teachers.js', 'public/assets/js/teachers/teachers.js').version();
+
+
+
+
+ mix.js('resources/assets/js/institutionals/institutionals.js', 'public/assets/js/institutionals/institutionals.js').version();
+
+
